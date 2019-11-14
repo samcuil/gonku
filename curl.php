@@ -163,7 +163,7 @@ function claim($token)
     }
     function claim1($token)
     {
-    $data = '{"promo_code":"GOFOODBOBA09"}';    
+    $data = '{"promo_code":"GOFOODSANTAI11"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -177,7 +177,7 @@ function claim($token)
     }
     function claim2($token)
     {
-    $data = '{"promo_code":"GOFOODBOBA19"}';    
+    $data = '{"promo_code":"GOFOODSANTAI10"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
@@ -205,7 +205,7 @@ function claim($token)
     }
      function cekvocer($token)
     {
-    $data = '{"promo_code":"AYOCOBAGOJEK"}';    
+    $data = '{"promo_code":"GOFOODSANTAI9"}';    
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
     if ($claim['success'] == 1)
         {
