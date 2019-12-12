@@ -1,18 +1,27 @@
-APPS REQUIRED :
-- TERMUX
-- GOJEK
+#voucher gojek claim voucher terbaru
 
-*WAJIB NOMOR BARU atau NOMOR YANG BELUM TERDAFTAR GOJEK*
 
-Step By Step Command Line On Termux :
-1. pkg install php
-2. pkg install curl
-3. pkg install git
-4. git clone https://github.com/kumpulanremaja/vouchergojek
-5. cd gojekin
-6. php gojek.php
-7. masukin nomor hp
-8. masukin kode verifikasi(OTP)
-9. pilih kode voucher
-10. repeat(ulangi seperti biasa)
- untuk selengkapnya tentang tutorial cek di https://www.kumpulanremaja.com/2019/11/cara-mendapatkan-voucher-go-food-gratis-gojek.html
+voucher go food dan Go ride
+
+kode perintah
+pkg update
+
+pkg upgrade
+
+pkg install php
+
+pkg install curl
+
+pkg install git
+
+setelah itu anda wajib memasukan kode perintah untuk mendownload script auto claim voucher gojek
+git clone https://github.com/kumpulanremaja/gofood
+
+lalu masukan kode perintah untuk menjalankan script , kode ini untuk daftar dan claim voucher go food gojek
+cd gofood
+
+php tembak.php
+
+
+
+untuk selengkapnya baca di https://www.kumpulanremaja.com/2019/11/cara-mendapatkan-voucher-go-food-gratis-gojek.html
